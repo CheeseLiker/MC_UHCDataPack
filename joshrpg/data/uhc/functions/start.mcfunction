@@ -59,7 +59,9 @@ execute if score dragon_uhc Gamestate matches 1 run function uhc:dragon/set_team
 
 ## Makes sure the game is set to "hard"
 
-difficulty hard
+execute in minecraft:overworld run difficulty hard
+execute in minecraft:the_nether run difficulty hard
+execute in minecraft:the_end run difficulty hard
 
 ## Start PvP timer
 

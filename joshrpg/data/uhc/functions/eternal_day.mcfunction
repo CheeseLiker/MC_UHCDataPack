@@ -1,7 +1,7 @@
 # Set eternal day
 
-time set noon
-gamerule doDaylightCycle false
+execute in minecraft:overworld run time set noon
+execute in minecraft:overworld run gamerule doDaylightCycle false
 
 title @a subtitle {"text":"Eternal Day Enabled","color":"aqua"}
 title @a title ""
